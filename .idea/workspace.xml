@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41e69874-15ac-4235-9a9d-c8880a1ce41d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\.m2\repository" />
+        <option name="userSettingsFile" value="G:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VKUTY5nQI4jxLHz0IYLEyCym4b" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.JedisOperate.testSet (1)">
+    <configuration name="JedisOperate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisOperate.testHash" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
+      <option name="METHOD_NAME" value="testHash" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisOperate.testList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisOperate.testSet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
+      <option name="METHOD_NAME" value="testSet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisOperate.testSet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
+      <option name="METHOD_NAME" value="testSet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.JedisOperate.testSet (1)" />
+        <item itemvalue="TestNG.JedisOperate.testSet" />
+        <item itemvalue="TestNG.JedisOperate.testList" />
+        <item itemvalue="TestNG.JedisOperate.testHash" />
+        <item itemvalue="TestNG.JedisOperate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41e69874-15ac-4235-9a9d-c8880a1ce41d" name="Default Changelist" comment="" />
+      <created>1577001288998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577001288998</updated>
+      <workItem from="1577001291501" duration="4300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
