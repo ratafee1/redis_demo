@@ -7,10 +7,9 @@ import org.testng.annotations.BeforeTest;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
+import redis.clients.jedis.JedisSentinelPool;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class JedisOperate {
     private JedisPool jedisPool;
@@ -26,6 +25,42 @@ public class JedisOperate {
         //获取jedis连接池
         jedisPool = new JedisPool(jedisPoolConfig, "node01", 6379);
     }
+
+//    redis哨兵模式下的代码开发
+    @Test
+    public void testSentinel(){
+        final JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
+        jedisPoolConfig.setMinIdle(5);
+        jedisPoolConfig.setMaxTotal(30);
+        jedisPoolConfig.setMaxWaitMillis(3000);
+        jedisPoolConfig.setMaxIdle(10);
+        final HashSet<String> sentinels = new HashSet<>(Arrays.asList("node01:26379", "node02:26379", "node03:26379"));
+        final JedisSentinelPool sentinelPool = new JedisSentinelPool("mymaster", sentinels,jedisPoolConfig);
+        final Jedis jedis = sentinelPool.getResource();
+        jedis.set("sentinelKey","aa");
+        final String key = jedis.get("sentinelKey");
+        System.out.println(key);
+        jedis.close();
+        sentinelPool.close();
+    }
+
+@Test
+public void testSentinel1() {
+    JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
+    jedisPoolConfig.setMaxTotal(10);
+    jedisPoolConfig.setMaxIdle(5);
+    jedisPoolConfig.setMinIdle(5);
+    // 哨兵信息
+    Set<String> sentinels = new HashSet<>(Arrays.asList("node01:26379", "node02:26379","node03:26379"));
+    // 创建连接池
+    JedisSentinelPool pool = new JedisSentinelPool("mymaster", sentinels,jedisPoolConfig);
+    // 获取客户端
+    Jedis jedis = pool.getResource();
+    // 执行两个命令
+    jedis.set("mykey", "myvalue");
+    String value = jedis.get("mykey");
+    System.out.println(value);
+}
 
     @Test
     public void testSet () {

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41e69874-15ac-4235-9a9d-c8880a1ce41d" name="Default Changelist" comment="" />
+    <list default="true" id="41e69874-15ac-4235-9a9d-c8880a1ce41d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/itcast/jedis/JedisOperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/jedis/JedisOperate.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -30,6 +36,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VKUTY5nQI4jxLHz0IYLEyCym4b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -50,8 +57,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.JedisOperate.testSet (1)">
-    <configuration name="JedisOperate" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JedisOperate.testSentinel">
+    <configuration name="JedisOperate (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jedis" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisOperate.testHash" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JedisOperate (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jedis" />
       <extension name="coverage">
         <pattern>
@@ -78,7 +85,41 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
       <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
-      <option name="METHOD_NAME" value="testHash" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisOperate (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisOperate.testSentinel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
+      <option name="METHOD_NAME" value="testSentinel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisOperate.testList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JedisOperate.testSentinel1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jedis" />
       <extension name="coverage">
         <pattern>
@@ -96,43 +137,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
       <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
-      <option name="METHOD_NAME" value="testList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JedisOperate.testSet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jedis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.jedis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
-      <option name="METHOD_NAME" value="testSet" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JedisOperate.testSet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jedis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.jedis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.jedis" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.jedis.JedisOperate" />
-      <option name="METHOD_NAME" value="testSet" />
+      <option name="METHOD_NAME" value="testSentinel1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JedisOperate.testSet (1)" />
-        <item itemvalue="TestNG.JedisOperate.testSet" />
-        <item itemvalue="TestNG.JedisOperate.testList" />
-        <item itemvalue="TestNG.JedisOperate.testHash" />
-        <item itemvalue="TestNG.JedisOperate" />
+        <item itemvalue="TestNG.JedisOperate.testSentinel" />
+        <item itemvalue="TestNG.JedisOperate.testSentinel1" />
+        <item itemvalue="TestNG.JedisOperate (1)" />
+        <item itemvalue="TestNG.JedisOperate (4)" />
+        <item itemvalue="TestNG.JedisOperate (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,11 +165,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577001288998</updated>
-      <workItem from="1577001291501" duration="4300000" />
+      <workItem from="1577001291501" duration="5180000" />
+      <workItem from="1577078150726" duration="2146000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
